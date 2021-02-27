@@ -83,7 +83,7 @@ header span{
 
 form{
     clear: both;
-    background: url("img/list-bg.png");
+    /* background: url("img/list-bg.png"); */
     border: 0;
     font-family: 'Open Sans', sans-serif;
 
@@ -96,6 +96,8 @@ form{
 section form article {
     width: 50%;
     float: left;
+    /* background: url("./img/list-bg.png"); */
+
 }
 
 
