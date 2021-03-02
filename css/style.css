@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
 *{
     box-sizing: border-box;
 }
+
 
 body{
     margin: auto;
@@ -13,12 +15,14 @@ body{
     line-height: 2;
 }
 
+
 header {
     display: flex;
     align-items: center;
     justify-content:space-between;
     line-height: .5;
 }
+
 
  header h2{
     display: inline;
@@ -28,6 +32,7 @@ header {
     font-size: 40px;
     padding:0ch;
 }
+
 
 header span{
     font-family: 'Open Sans Condensed', sans-serif;    
@@ -42,9 +47,11 @@ header span{
      margin-left: 10px;
  }
 
+
  .mainHeader{
     line-height: .5;
  }
+
 
  h1{
      margin-bottom: 0%;
@@ -52,7 +59,6 @@ header span{
      margin-right: auto;
      font-size: 50px;
      font-family: 'Roboto Condensed', sans-serif; }
-
 
 
  .underMainTitle{
@@ -80,24 +86,22 @@ header span{
     }
 
 
-
 form{
     clear: both;
-    /* background: url("img/list-bg.png"); */
+    background: url('./img/list-bg.png');
     border: 0;
     font-family: 'Open Sans', sans-serif;
-
 }
+
 
 .line-through{
     text-decoration: line-through;
 }
 
+
 section form article {
     width: 50%;
     float: left;
-    /* background: url("./img/list-bg.png"); */
-
 }
 
 
@@ -110,42 +114,64 @@ hr{
         #ddd 2px,
         #ddd 4px
       );
-      border: 0px;
+    border: 0px;
     }
+
 
 .hrUp{
     margin-bottom: 60px;
 }
 
+
 .htDown{
     margin-top: 60px;
 }
+
 
 footer{
     clear: both;
 }
 
+
 .footerUpperPrat{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    line-height: .5;
+    line-height: 1.5;
+    margin-bottom: 60px;
 }
 
+
+h4{
+    text-align: left;
+    margin-left: 0;
+}
+
+
+.linePhoto {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
 .linePhoto hr{
-    clear: both;
     height: 1px;
     margin-top: 30px;
     background:rgba(167, 166, 166, .3);
     padding-left: 40px;
     margin-bottom: 0;
+    width: 500px;
 }
+
 
 .linePhoto img{
 margin: auto;
 justify-content: center;
+justify-items: center;
 margin-top: 0;
 }
+
 
 .footerLowerPrat{
     display: flex;
@@ -155,7 +181,30 @@ margin-top: 0;
     text-align: center;
 }
 
-footer h3{
-    margin-left: auto;
 
+footer h4{
+    clear: both;
+    font-size: medium;
+    font-weight: bolder;
+    margin-right: 250px;
+}
+
+
+.styleSpan{
+    line-height: 1;
+    font-weight: 500;
+}
+
+
+button{
+    background-color: rgb(196, 87, 87);
+    color: white;
+    height: 40px;
+    width: 130px;
+    text-transform: uppercase;
+}
+
+
+.printWord{
+    font-size: small;
 }
